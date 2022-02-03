@@ -216,7 +216,7 @@ body{
     flex-wrap: wrap;
 }
 .item-price {
-    display: flex;
+    display: flex;   
 }
 .item-price-bold {
     font-weight: 600;
