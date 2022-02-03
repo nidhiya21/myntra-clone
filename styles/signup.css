@@ -1,0 +1,164 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #FDEEEC;
+    
+    }
+    
+    .content-block{ 
+        width: 30%;
+        padding: 4px 36px 0;
+        background-color:white; 
+        margin-left: auto;
+        margin-right: auto; 
+        height: 600px;
+       
+    
+    }
+    .signup-content{
+        font-family:WhitneySSm;
+        font-size: 18px;
+        font-weight: 600;
+        color: #282c3f;
+        margin-bottom: 10px;
+        margin-left: 0;
+        padding: 22px 0 0;
+    }
+ 
+    .mobileInputContainer .form-group .form-control {
+        border: 1px solid #d4d5d9;
+        font-size: 14px;
+        padding: 11px 12px;
+        line-height: 16px;
+        height: auto;
+        color: #282c3f;
+        width:100%
+    }
+    .mobileInputContainer .form-group .mobileText {
+        text-align-last: center;
+    }
+    .form-group {
+        margin-bottom: 14px;
+        position: relative;
+        
+    }
+    .mobileInputContainer .form-group .placeholderTxt {
+        color: #94969f;
+        top: 10px;
+        left: 12px;
+        font-size: 14px;
+        position: absolute;
+        pointer-events: none;
+    }
+    /* .placeholderTxt-mobileNumberInput{
+        left: 12px;
+
+    } */
+
+    .submitButton {
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #ff3f6c;
+        text-align: center;
+        padding: 12px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px; 
+        line-height: 16px;
+    }
+    .phoneNumberValue {
+        font-size: 14px;
+        color: #282c3f;
+        padding-top: 5px;
+        margin-bottom: 10px
+    }
+    .phoneNumberLabel {
+        opacity: .6;
+        font-size: 10px;
+        color: #282c3f;
+        padding-top: 15px;
+    }
+    .phoneInfo {
+        opacity: .6;
+        font-size: 12px;
+        color: #282c3f;
+        padding-top: 15px;
+    }
+    .genderArea {
+        color: #94969f;
+        font-size: 16px;
+        position: relative;
+        vertical-align: top;
+        top: 2px;
+    }
+    /* input[type="radio"]:checked {
+        outline: none;
+        background-color: lightgreen;
+        border: 1px solid lightgreen;
+    } */
+    .genderTextFemale {
+      
+        margin-left: 30px;
+    }
+    .genderTextmale {
+     
+        margin-left: 20px;
+    }
+    .passwordWidgets {
+        border-radius: 2px;
+        margin-top: 6px;
+    }
+    .passwordWidgets .disabled .widgetText {
+        color: #282c3f;
+        opacity: .5;
+    }
+    .passwordWidgets .widgetText {
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .passwordWidgets .disabled {
+        background-color: rgba(40,44,63,.05);
+    }
+    .passwordWidgets .widget {
+        padding: 5px 10px 6px 8px;
+        margin-right: 6px;
+        margin-bottom: 12px;
+        display: inline-block;
+    
+    }
+    .content-phoneNumber{
+        position: relative;
+    }
+ 
+    .verifiedIcon {
+        position: absolute;
+        right: 0;
+        margin-top: -12px;
+        top: 50%;
+    }
+    /* input[type='radio'] {
+     
+        border-radius: 50%;
+        outline: none;
+        border: 3px solid green;
+    }
+
+    input[type='radio']:before {
+        content: '';
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 50%;
+        background: green;
+    }
+
+ 
+    
+    input[type="radio"]:checked {
+      border-color:green;
+    } */
+    

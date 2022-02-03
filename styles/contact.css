@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color:white;
+    
+    }
+    .helpcenter-box {
+        width: 100%;
+        background: white;
+        padding-bottom: 24px;
+        border-bottom: solid 0.5px #EAEAEC;
+        margin: 4% auto;
+        max-width: 926px;
+        background-color: transparent;
+    }
+    /* .helpcenter-box {
+        display: block; 
+        max-width: 100%; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 30px;
+        
+    } */
+   
+    .helpcenter-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .helpcenter-rightBox {
+     
+        position: absolute;
+        top: -31px;
+        left: 0;
+        right: 0;
+        margin-left: 300px;
+        padding: 0 16px;
+        border: solid 0.5px #eaeaec;
+    }
+    .helpcenter-leftBox {
+        width: 270px;
+        margin: auto 0px;
+    }
+    .helpcenter-outer {
+        padding-right: 8px;
+    }
+    .helpcenter-headerText {
+        text-align: left;
+        color: #282c3f;
+        font-family: Whitney;
+        font-size: 20px;
+        font-weight: 580;
+       
+    }
+    .helpcenter-contentText {
+        font-size: 14px;
+        text-align: left;
+        color: #696b79;
+        font-family: Whitney;
+   
+    }
+    .helpcenter-rightButton {
+        float: right;
+        margin-left: auto;
+        margin-bottom: 8px;
+        margin-top: -16px
+
+    }
+    .helpcenter-orderButton {
+        margin-top: -13px;
+        font-family: Whitney;
+        border: solid 1px #14cda8;
+        float: left;
+        background: white;
+        font-size: 12px;
+        font-weight: 550;
+        text-align: center;
+        color: #14cda8;
+        padding: 12px 24px;
+        border-radius: 4px;
+       
+    }
+    .helpcenter-bagButtonWrapper {
+        left: 24px;
+    }
+    .helpcenter-rightContentText {
+       
+        text-align: left;
+        color: #94969f;
+        font-family: Whitney;
+        font-size: 10px;
+    }
+    .helpcenter-rightHeaderText {
+        margin-top: 19px;
+        text-align: left;
+        color: #3e4152;
+        font-family: Whitney;
+        font-size: 11px;
+        font-weight: 600;
+        
+    }
+    .leftBlock-box {
+        float: left;
+        width: 239px;
+        height: 319px;
+        padding-right: 31px;
+        border-right: solid 1px #EAEAEC;
+        position: relative;
+    }
+    .leftBlock-headerText {
+        font-family: Whitney;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        color: #282c3f;
+        margin-bottom: 16px;
+    }
+    .leftBlock-queryText {
+        font-family: Whitney;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: left;
+        color: #696b79;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .leftBlock-nextButtonWrapper {
+        right: 31px;
+        position: absolute;
+        margin-top: -3px;
+        color: #94969F;
+    }
+    .leftBlock-divider {
+        border-bottom: solid 1px #eaeaec;
+        margin: 24px 0px;
+    }
+    .leftBlock-bottomAligned {
+        width: 239px;
+        position: absolute;
+        bottom: 15px;
+    }
+    .leftBlock-queryBottom {
+        font-family: Whitney;
+        font-size: 14px;
+        text-align: left;
+        color: #526cd0;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .leftBlock-nextButtonWrapper {
+        right: 31px;
+        position: absolute;
+        margin-top: -3px;
+        color: #94969F;
+    }
+    
+  
+    .isSelected {
+        color: #14cda8;
+    } 
+    .bottom-outer{
+        margin: 4% auto;
+        max-width: 926px;
+        background-color: transparent;
+    }
+    .generic-mainContent {
+        border: solid 0.5px #eaeaec;
+        padding: 0px 24px;
+        height: auto;
+        width: 669px;
+        margin-left: 254px;
+    }
+    .oneLinerDesktop-infoAll {
+        width: 100%;
+        height: auto;
+        margin: 24px 0px 13px 2px;
+    }
+    .oneLinerDesktop-infoAllText {
+        font-family: Whitney;
+        font-size: 12px;
+        font-weight: 600;
+        color: #282c3f;
+        letter-spacing: 0.5px;
+        padding: 2px 0px;
+        display: inline-block;
+
+    }
+    .query-dBox {
+        width: 100%;
+        height: auto;
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+        border-color: #EAEAEC;
+        position: relative;
+    }
+    .query-dInsideBox {
+        margin: 18px 0px;
+       
+        display: inline-flex;
+    }
+    .query-genericQueryText {
+        font-family: whitney;
+        font-size: 13px;
+        color: #3E4152;
+        float: left;
+    }
